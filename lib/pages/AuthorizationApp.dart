@@ -53,7 +53,7 @@ class _AuthorizationAppState extends State<AuthorizationApp>{
 
     
         ElevatedButton(onPressed: (){
-          
+          Navigator.pushNamed(context, '/bnbar');
         }, child: Text('Войти')),
         ElevatedButton(onPressed: (){
 
